@@ -1,6 +1,6 @@
 # Non-Local Means Denoising
 
-The non-local means algorithm was proposed as a simple yet effective image denoising method based on the principle of replacing the colour of a pixel with an average of the colours of ‘similar’ pixels.
+The non-local means algorithm was proposed in [1], as a simple yet effective image denoising method based on the principle of replacing the colour of a pixel with an average of the colours of ‘similar’ pixels.
 
 Based on independent literature research, and experimentation with the OpenCV implementation of non-local means denoising fastNlMeansDenoisingColored(), write a report containing:
 
@@ -17,6 +17,12 @@ Based on independent literature research, and experimentation with the OpenCV im
 6. Description and discussion of applications of the original algorithm and its extensions.
 
 The report should contain examples of images denoised by the OpenCV implementation of the algorithm. You can use the Python program uploaded on DUO and fine-tune its parameters.
+
+## References
+
+[1] Buades, Antoni, Bartomeu Coll, and J-M. Morel. "A non-local algorithm for image denoising." 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05). Vol. 2. IEEE, 2005.
+ 
+[2] Buades, Antoni, Bartomeu Coll, and Jean-Michel Morel. "Non-local means denoising." Image Processing On Line 1 (2011): 208-212.
 
 
 See `assignmentSM2019.pdf` for details.
